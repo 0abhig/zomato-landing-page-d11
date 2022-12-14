@@ -37,7 +37,7 @@ min-height: 60vh;
     width: 30px;
     display: none;
     border-radius: 100%;
-    border: 1px solid white;
+    border: solid 1px white;
     align-items:center;
     justify-content: center;
 }
@@ -64,5 +64,48 @@ min-height: 60vh;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 30px;
+    gap: 32px;
+    height: calc(60vh - 60px);
 }
+
+.hero__section_logo{
+    width: 220px;
+    height: auto;
+}
+
+.hero__section_title{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.hero__section_input_container{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    border-radius: 3px;
+    gap: 10px;
+    width: 50%;
+}
+
+.input_container_location .input_container_search {
+    padding: 5px;
+    border: ;
+
+}
+
+.input_container_location{
+    width: 35%;
+}
+
+.input_container_search{
+    width: 65%;
+}
+
+.container{
+    margin: 3rem auto;
+    width: 80%;
+}
+
